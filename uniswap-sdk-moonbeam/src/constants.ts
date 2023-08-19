@@ -24,7 +24,7 @@ export enum Rounding {
 }
 
 export const FACTORY_ADDRESS: { [key: string]: string } = {
-  [ChainId.STANDALONE]: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f ',
+  [ChainId.STANDALONE]: '0x81D69A8dC9364Cfb8273B1b55F9d4715Ec782fd9',
   [ChainId.MOONROCK]: factory,
   [ChainId.MOONBASE]: factory,
   [ChainId.MOONSHADOW]: factory
