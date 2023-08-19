@@ -24,13 +24,13 @@ export enum Rounding {
 }
 
 export const FACTORY_ADDRESS: { [key: string]: string } = {
-  [ChainId.STANDALONE]: '0x5c4242beB94dE30b922f57241f1D02f36e906915',
+  [ChainId.STANDALONE]: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f ',
   [ChainId.MOONROCK]: factory,
   [ChainId.MOONBASE]: factory,
   [ChainId.MOONSHADOW]: factory
 }
 
-export const INIT_CODE_HASH = '0x01429e880a7972ebfbba904a5bbe32a816e78273e4b38ffa6bdeaebce8adba7c'
+export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
