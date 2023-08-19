@@ -6,7 +6,7 @@ export type BigintIsh = JSBI | bigint | string
 
 export enum ChainId {
   MAINNET = 1,
-  STANDALONE = 1281,
+  STANDALONE = 1,
   MOONROCK = 1286,
   MOONBASE = 1287,
   MOONSHADOW = 1288
